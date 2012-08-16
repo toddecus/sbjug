@@ -1,2 +1,2 @@
-[core]
-excludesfile = PrivateInfo.txt
+# Dont check this file in
+PrivateInfo.txt
