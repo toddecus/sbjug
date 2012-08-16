@@ -1,0 +1,31 @@
+UseCases:
+  Required:
+  - Informational home page that answers the question who is this User Group is, logo, topic, contact email 
+  - Researcher can view the next scheduled event time and date, and can click a link to add event to their outlook calendar
+  - Researcher can view the following about an event: keynote topic, the keynote speaker's name linked to credentials, a description, a link of keynote speaker's choice, any downloads/attachments, who the sponsor is {linked name} (optional), what the real world will be about(optional) , author of the real world(optional), link of real world speaker's choice, download/attachments for the real world
+  - Researcher can view the standard timeline of a meeting
+  - Researcher can view the normal location and map link to get to the event.
+  - Researcher can find out about membership and/or the mailing list as well as guidelines
+  - Researcher can view sponsors 
+  - Researcher can view past events, and contact speaker's from past events via a web form not a mail to:
+  - Researcher can contact/email the JUG leader(s)
+  - Researcher can read bio's of the JUG leadership (past and present)
+  - Sponsor can sponsor the User Group (sponsor may or may not mean payment depending on the User Group)
+  - Sponsor can sponsor a future event (sponsor may or may not mean payment depending on the User Group)
+  - A sponsor of an event can provide a keynote speaker, topic, description and downloads
+  - Leader can generate key/link to bypass payment one time for a sponsor
+  - Leader can CRUD an Event, including create an event starting from a copy of a past event
+  - Leader can generate a link to have a Member edit and fill in real world info about a specific event, expires when event passes
+  - Leader can generate a one time link to have a Keynote Speaker edit and fill in keynote info about an event, expires when event passes
+  - Members may sign up
+  - Members may suggest topics/vendors of interest
+  - Members may rate their interest in a suggested topic
+  - Members may invite sponsors
+  - Members may rate a past event
+	
+  Optional/Future:
+  - mailing list with nabble integration
+  - google text links integration
+  - Member comments on events
+  - Member/Leader upload photos of events
+  - integration with Flying CMS 
