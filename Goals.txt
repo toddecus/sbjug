@@ -1,0 +1,8 @@
+The goal of this project is to provide a canned out of the box runnable Grails application, maybe a plug-in, that can be used to run a User Group in the format used by the phxjug.org and now the sbjug.org. Additionally, the license is written to exact one payment from other groups that use the code base.  A free and clear link back to sbjug.org such that sbjug.org gets some appreciation for the efforts to develop this application.
+
+Use newer technology for demonstration and exploration purposes:
+Responsive Design using HTML5 and CSS MediaQueries for UI
+Grails 2.1 for development
+Cassandra for database.
+Git/Github for source control
+
