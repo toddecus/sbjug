@@ -3,6 +3,6 @@ The goal of this project is to provide a canned out of the box runnable Grails a
 Use newer technology for demonstration and exploration purposes:
 Responsive Design using HTML5 and CSS MediaQueries for UI
 Grails 2.1 for development
-Cassandra for database.
+MongoDB for database.
 Git/Github for source control
 
