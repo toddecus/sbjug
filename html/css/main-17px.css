@@ -1,4 +1,4 @@
-/*	Less Framework 4 Beta
+/*  This file was originally downloaded and customized from	Less Framework 4 Beta
 	by Joni Korpi
 	http://lessframework.com
 	License: http://opensource.org/licenses/mit-license.php	*/
@@ -50,7 +50,7 @@ a img {border: 0;}
 	margin: 0 0 24px;
 }
 
-.bigger, #masthead h1, #follow p, #what .opening p {
+.bigger, #masthead h1, #follow p, #meetings .opening p {
 	font-size: 26px;
 	line-height: 36px;
 }
@@ -107,8 +107,9 @@ body {
 
 hr {
 	border: none;
-	border-top: 1px solid rgb(195,195,195);
+	border-bottom: 1px solid rgb(195,195,195);
 	clear: both;
+	padding-top: 8px;
 }
 
 #masthead, #montage, article, #colophon {
@@ -141,7 +142,7 @@ hr {
 		);
 	}
 	
-		/*Goddamn Android*/ #what h1, #what p, #what section h2 {background: rgb(255,255,255);}
+		/*Goddamn Android*/ #meetings h1, #meetings p, #meetings section h2 {background: rgb(255,255,255);}
 
 		figure img {position: absolute; left: 0; bottom: 0;}
 		
@@ -237,7 +238,7 @@ aside {
 	
 		aside li:first-child {margin-top: 0;}
 		
-	#new {
+	#new, #topics, #pay, #both {
 		right: 48px; top: 24px;
 	}
 	
@@ -265,12 +266,12 @@ article {
 	clear: both;
 }
 
-#what {
+#meetings {
 	padding-right: 24px;
 	width: 920px;
 }
 
-	#what .opening {
+	#meetings .opening {
 		margin-bottom: 48px;
 		width: 620px;
 	}
@@ -283,9 +284,9 @@ article {
 		height: 252px;
 	}
 	
-		#what section h2 {padding-top: 24px;}
+		#meetings section h2 {padding-top: 24px;}
 	
-		#what figure {
+		#meetings figure {
 			background: rgb(218,218,218);
 			width: 160px;
 			height: 252px;
@@ -448,6 +449,8 @@ article {
 	
 	#follow {
 		top: 35px; left: 48px;
+        font-size: 12px;
+        line-height: 18px;
 		width: 436px;
 	}
 	
@@ -472,6 +475,9 @@ px		68    160    252    344    436    528    620    712		*/
 	body {
 		padding: 40px 0 72px;
 	}
+    .opening {
+        width: 440px;
+    }
 	
 	#masthead, #about, #meetings, #community,#sponsor, #colophon {
 		padding-left: 28px;
@@ -494,31 +500,30 @@ px		68    160    252    344    436    528    620    712		*/
 		padding-top: 47px;
 	}
 	
-		#what .opening, #what section {
+		#meetings .opening, #meetings section {
 			width: auto;
 			height: auto;
 		}
 		
-			#what .opening {width: 436px;}
+			#meetings .opening {width: 436px;}
 		
-			#what .opening p {
+			#meetings .opening p {
 				font-size: 22px;
 				line-height: 30px;
 			}
 	
-		#new {right: 28px;}
+		#new, #topics, #pay, #both {right: 28px;}
 		
-		#what figure {height: 160px;}
+		#meetings figure {height: 160px;}
 		
 			.canvas {top: -12px;}
 		
-		#what section {
+		#meetings section {
 			float: none;
 			height: 160px;
-		}
-		
-	#meetins section {
-		padding-left: 92px;
+
+
+		padding-left: 24px;
 		padding-right: 92px;
 	}
 	
@@ -569,6 +574,7 @@ em		4.25  10.0   15.75						*/
 	body {
 		padding: 24px 0 60px;
 	}
+        aside {position:static;}
 	
 	#masthead, #about, #meetings, #community, #sponsor, #colophon {
 		padding-left: 34px;
@@ -580,6 +586,8 @@ em		4.25  10.0   15.75						*/
 	
 		#masthead nav {
 			right: auto; top: auto; 
+			position: static;
+			padding-top: 8px;
 			left: 34px; top: 124px;
 			z-index: 888;
 		}
@@ -597,7 +605,7 @@ em		4.25  10.0   15.75						*/
 			#iphone-portrait 	{left: auto; right: 0;}
 			
 /*
-	#new, #what figure {display: none;}
+	#new, #meetings figure {display: none;}
 */
 	
 	#community section, #meetings .opening, #about section,#sponsor section, #sites, #resources, #colophon section, #colophon p {
@@ -639,7 +647,7 @@ em		4.25  10.0   15.75						*/
 		#get textarea {width: 228px; height: 160px; margin-top: 24px; position: static;}
 		#css {margin-bottom: 24px;}
 		
-		#follow p {margin-bottom: 24px; clear: both;}
+		#follow p {font-size: 12px;line-height: 18px; margin-bottom: 24px; clear: both;}
 		#share li, #share ul {margin: 0 0 12px; float: none; text-align: center;}
 	
 }
@@ -659,6 +667,7 @@ px		68    160    252    344    436						*/
 	body {
 		padding: 24px 0 48px;
 	}
+        aside {position:static;}
 		
 	#masthead, #about, #meetings, #community, #sponsor, #colophon {
 		padding-left: 22px;
@@ -668,7 +677,7 @@ px		68    160    252    344    436						*/
 	
 	#masthead {text-align: left;}
 	
-		#masthead nav {left: 10px; width: 446px; top: 104px;}
+		#masthead nav {position: static;padding-top: 8px; left: 10px; width: 446px; top: 104px;}
 		
 			#masthead li {width: auto; margin: 0 0 0 12px; float: left;}
 		
@@ -689,8 +698,8 @@ px		68    160    252    344    436						*/
 	#get textarea {width: 412px;}
 	
 	#follow p {
-		font-size: 26px;
-		line-height: 36px;
+		font-size: 12px;
+		line-height: 18px;
 	}
 	
 	#share li {margin: 0 12px 24px 0; float: left;}
