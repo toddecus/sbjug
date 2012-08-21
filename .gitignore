@@ -1,2 +1,11 @@
 # Dont check this file in
 privateInfo.txt
+.idea
+.idea/.name
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sbjug.iml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
