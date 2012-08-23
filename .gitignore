@@ -1,6 +1,6 @@
 # Dont check this file in
 privateInfo.txt
-.idea
+.idea/*
 .idea/.name
 .idea/encodings.xml
 .idea/misc.xml
