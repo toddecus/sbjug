@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45374b3a-b02f-4b63-91af-342bb82b64be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="45374b3a-b02f-4b63-91af-342bb82b64be" name="Default" comment="" />
     <ignored path="sbjug.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/css/main-17px.css" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
