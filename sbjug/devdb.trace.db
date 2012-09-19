@@ -1,0 +1,6 @@
+08-23 17:27:50 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER_GROUP" not found; SQL statement:
+select * from user_group [42102-164]
+08-23 17:36:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER_GROUP" not found; SQL statement:
+SELECT * FROM user_group [42102-164]
