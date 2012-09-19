@@ -304,6 +304,19 @@ aside li:first-child {
     top: 24px;
 }
 
+#pay2 {
+    margin-top: 10px;
+    right: 48px;
+    top: 214px;
+    color: rgb(246, 135, 31);
+    background: rgb(20, 20, 20);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(20, 20, 20)), color-stop(0.764, rgb(15, 15, 15)));
+}
+#pay2 a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
 #sites {
     top: 360px;
     right: 36px;
@@ -724,7 +737,7 @@ px		68    160    252    344    436    528    620    712		*/
         line-height: 30px;
     }
 
-    #new, #topics, #pay, #both {
+    #new, #topics, #pay, #pay2, #both {
         right: 28px;
     }
 
